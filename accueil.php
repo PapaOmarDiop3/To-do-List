@@ -3,7 +3,7 @@
 include 'includes/functions.php';
 
 // Inclure le fichier contenant le header de la page
-include 'templates/header.php';
+include 'templates/header.html';
 
 // Récupérer toutes les tâches depuis la base de données
 $tasks = getTasks($conn);
