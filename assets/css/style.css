@@ -1,0 +1,209 @@
+/* CSS Global */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+}
+
+h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+
+/* Section Accueil */
+#accueil {
+    background: linear-gradient(135deg, #007bff, #28a745);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#accueil h2 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+#accueil p {
+    font-size: 1.2rem;
+}
+
+.btn-spacing {
+    margin-top: 50px; /* Descend le bouton plus loin */
+}
+
+
+#accueil .btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border-radius: 25px;
+    background-color: #ffc107;
+    color: #343a40;
+    transition: background-color 0.3s ease;
+}
+
+#accueil .btn:hover {
+    background-color: #e0a800;
+}
+
+
+/* Réinitialisation de style de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 0;
+    margin: 0;
+}
+
+/* En-tête */
+.header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 1rem 2rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #ffdf5d;
+}
+
+.nav-links li a.active {
+    color: #ffdf5d;
+}
+
+/* Contenu principal */
+.main-content {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #007BFF;
+}
+
+/* Formulaire des tâches */
+.task-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+#task-input {
+    width: 70%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+
+.btn {
+    padding: 0.8rem 1.5rem;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Liste des tâches */
+.task-list {
+    padding: 1rem;
+    border-top: 1px solid #ccc;
+}
+
+.task-list div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+.task-list div:last-child {
+    border-bottom: none;
+}
+
+.task-list div p {
+    margin: 0;
+}
+
+.task-list div .btn-delete {
+    background-color: #dc3545;
+    padding: 0.5rem 1rem;
+}
+
+.task-list div .btn-delete:hover {
+    background-color: #a71d2a;
+}
+
+/* Pied de page */
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #007BFF;
+    color: #fff;
+    position: fixed; /* Fixe le footer en bas de la fenêtre */
+    bottom: 0;
+    left: 0;
+    width: 100%; /* S'assure que le footer occupe toute la largeur */
+}
+
+.footer p {
+    margin: 0;
+}

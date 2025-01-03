@@ -1,0 +1,24 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer {
+    height: 50px; /* Réduire la hauteur du footer */
+    background-color: #007bff; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0; /* Réduit l'espace interne */
+}
+
+.footer p {
+    margin: 0; /* Supprime les marges des paragraphes */
+    font-size: 0.9rem; /* Réduit la taille du texte */
+}
+
+.footer a {
+    color: white;
+    text-decoration: underline;
+}
